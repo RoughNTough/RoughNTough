@@ -117,6 +117,7 @@ async function handleSubmit() {
     --accent: #e02537;
     --radius: 0.75rem;
     font-family: system-ui, sans-serif;
+    width: 100%;
 
     /* centre everything */
     min-height: 100vh;
@@ -126,6 +127,7 @@ async function handleSubmit() {
     justify-content: center;
     gap: 5rem;
     text-align: center;
+    padding-top:2rem ;
 }
 
 /* ---------- hero ---------- */
@@ -212,7 +214,7 @@ textarea {
 
 @media (max-width: 480px) {
     .contact {
-        padding: 0;
+        padding: 10px;
         border-radius: 0;
         /* optional: flatten border for full width look */
         border: none;
